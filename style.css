@@ -917,7 +917,8 @@ z-index: -1;
 .pluses {
 min-height: 22vh;
 width: 100%;
-background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.658)), url(images/mission2.jpg);
+background-image: radial-gradient(circle at center , #000000c4 5%, #1a002b 40%), url(images/mission2.jpg);
+background-blend-mode: normal, multiply;
 background-position: center;
 background-size: cover;
 position: relative;
@@ -1300,6 +1301,7 @@ max-width: 1200px;
 padding-top: 100px;
 margin: 0 auto; 
 position: relative;
+padding-bottom: 50px;
 }
 
 .wrapper i {
